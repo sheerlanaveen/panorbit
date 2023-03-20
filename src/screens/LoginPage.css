@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: white;
+    width: 25em;
+    height: 25em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.55em rgb(156,156,156);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.container-header{
+    margin-left: 4em;
+    padding: 1em;
+}
+.container-data{
+
+    overflow-y: scroll;
+    margin-left: 4em;   
+    
+}

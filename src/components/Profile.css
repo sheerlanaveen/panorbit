@@ -1,0 +1,20 @@
+.header-content{
+    height: 30px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    
+  
+}
+.login-left{
+    padding: 10px;
+      background:#ffffff; 
+     
+}
+.login-right{
+    padding: 10px;
+    background: #ffffff;
+    
+}
